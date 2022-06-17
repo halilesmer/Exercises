@@ -1,4 +1,34 @@
 // -------------------- Extra: Function exercises -----------------------------///
+// const s1 = "Hallo Ali, are you web developer?";
+// const s2 = " Ali,  you  developer?";
+
+
+// function missingWord(s1, s2) {
+//     let makeArray1 = s1.split(" ");
+//     let makeArray2 = s2.split(" ");
+    
+//   let result = makeArray1.filter(x => !makeArray2.includes(x))
+  
+//   return result.join(', ')
+// }
+// console.log("missingWord(s1, s2): ", missingWord(s1, s2));
+// missingWord(s1, s2);
+
+
+
+
+// const arr2 = ["Stian", "Jaspreet", "Karolina", "Thomas", "Yaser"];
+// const arr1 = ["Stian", "Karolina"];
+
+// let result10 =[];
+// let result = arr2.filter((x) => !arr1.includes(x));
+    
+//     console.log("result: ", result);
+// console.log("result10: ", result10);
+
+
+
+
 // const names = ["Stian", "Jaspreet", "Karolina", "Thomas", "Yaser"];
 // const namesUpperCase = ["stian", "jaspreet", "karolina", "thomas", "yaser"];
 // const ages = [23, 26, 50, 32, 43, 41, 2];
