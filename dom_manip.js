@@ -1,5 +1,15 @@
 const bands = ["Dire Straits", "Kansas", "Steely Dan"];
 
+const body = document.querySelector('body')
+// const p = document.createElement('p');
+// p.classList.add('hallo');
+// p.textContent ='hallo'
+// body.appendChild(p);
+
+body.insertAdjacentHTML('beforeend', `
+<p class='hallo'>Hallo</p>
+`)
+
 
 
 // // Exercise 2 - Solution 1
